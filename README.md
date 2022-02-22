@@ -26,6 +26,7 @@ func main() {
 	l.Info("info")
 	l.Warning("warning")
 	l.Light("light")
+	l.Unicorn("Unicorn message: have a nice weekend and see you tomorrow!")
 	l.WithColor(color.Green, "with color")
 	l.Fatal("fatal")
 }
